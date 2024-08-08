@@ -28,9 +28,12 @@ return {
           },
         },
         integrations = {
-          telescope = {
-            enabled = true,
-          },
+          telescope = true,
+          cmp = true,
+          gitsigns = true,
+          nvimtree = true,
+          treesitter = true,
+          alpha = true,
         },
       }
       vim.cmd [[colorscheme catppuccin]]
